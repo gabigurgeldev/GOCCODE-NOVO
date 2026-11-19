@@ -1,0 +1,32 @@
+{
+  "name": "@goc/editor",
+  "version": "0.0.0",
+  "private": true,
+  "description": "GOC Editor — Monaco Editor wrapper with GOC theme integration",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@goc/theme": "workspace:*",
+    "@goc/shared": "workspace:*",
+    "monaco-editor": "^0.52.0"
+  },
+  "peerDependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "monaco-editor": "^0.52.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "rimraf": "^6.0.0",
+    "typescript": "^5.6.0"
+  }
+}

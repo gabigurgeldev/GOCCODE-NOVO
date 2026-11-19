@@ -1,0 +1,18 @@
+{
+  "name": "@goc/extension-host",
+  "version": "0.0.0",
+  "private": true,
+  "description": "VS Code-compatible extension host for GOC",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "rimraf": "^6.0.0",
+    "typescript": "^5.6.0"
+  }
+}

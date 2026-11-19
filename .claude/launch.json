@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "goc-desktop-renderer",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "@goc/desktop", "run", "dev:renderer"],
+      "port": 5173
+    }
+  ]
+}
